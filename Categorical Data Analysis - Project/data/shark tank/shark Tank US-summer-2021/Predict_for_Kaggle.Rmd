@@ -1,0 +1,42 @@
+### Preparing Predictions for Kaggle
+
+```{r}
+library(tidyverse)
+library(tidymodels)
+#You may, of course, need access to additional libraries. You can take care of that :)
+```
+After you have created your model(s) on the "ames_students.csv" data, you should use your model to make predictions on the "ames_competition.csv" dataset. Create a predictions object to house these predictions.
+
+Let's read in the "ames_competition.csv" dataset into a data frame called competition:
+```{r}
+competition = read_csv("shark_competition.csv")
+```
+
+The predictions file that you submit to Kaggle must:  
+1. Be a CSV file  
+2. Have just two columns: One column for the ID variable and one column for your predictions
+
+I'm going to create a fake predictions object that predicts that all values of "Deal_Yes" in the competition dataset are "No". You would, of course, use your actual predictions from your model. You don't need to run this next chunk. 
+```{r}
+x = rep("No", times= 236)
+df1 = data.frame(x)
+df1
+```
+
+Now that we have our predictions (you should have your actual predictions rather than my fake ones), we need to combine the predictions with the ID variable to create our data frame for Kaggle.  
+```{r}
+kaggle = competition %>% rowid_to_column("ID") %>% select(ID) #creating a data frame with just the ID number from competition
+
+kaggle = bind_cols(kaggle, df1) #here, you would put your predictions object, not df1!!
+
+kaggle
+  
+```
+
+
+Now we can write this dataframe out to a CSV file. This is file that you submit to Kaggle.  
+```{r}
+write.csv(kaggle, "kaggle_submit.csv", row.names=FALSE)
+```
+
+This file is ready to go.  

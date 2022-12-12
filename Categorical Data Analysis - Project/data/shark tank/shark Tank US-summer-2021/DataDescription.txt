@@ -1,0 +1,52 @@
+VARIABLE DESCRIPTIONS ARE SHOWN BELOW
+
+Company: Name of company being pitched to the investors
+SeasonEpisode: Season and episode in which company was pitched
+ReceiveOffer: Did the company receive an offer from at least one investor (Yes = 1, No = 0)
+RejectOffer: Did the company reject the investor(s) offer (Yes = 1, No = 0)
+Deal_Yes: Did the company make a deal with investor(s) (Yes = 1, No = 0)
+Deal_No: Did the company fail to make a deal with investor(s) (Yes = 1, No = 0)
+Number of Presenters: Number of presenters present during company pitch
+Eth1: Ethnicity of presenter 1, (African American = 1, White = 2, Asian = 3, Latino = 4, No presenter 1 = 0)				
+Eth2: Ethnicity of presenter 2, (African American = 1, White = 2, Asian = 3, Latino = 4, No presenter 2 = 0)
+Eth3: Ethnicity of presenter 3, (African American = 1, White = 2, Asian = 3, Latino = 4, No presenter 3 = 0)
+Eth4: Ethnicity of presenter 4, (African American = 1, White = 2, Asian = 3, Latino = 4, No presenter 4 = 0)
+Eth5: Ethnicity of presenter 5, (African American = 1, White = 2, Asian = 3, Latino = 4, No presenter 5 = 0)
+Male1: Presenter 1 Male (Yes = 1, No = 0)
+Male2: Presenter 2 Male (Yes = 1, No = 0)
+Male3: Presenter 3 Male (Yes = 1, No = 0)
+Male4: Presenter 4 Male (Yes = 1, No = 0)
+Female1: Presenter 1 Female (Yes = 1, No = 0)
+Female2: Presenter 2 Female (Yes = 1, No = 0)
+Female3: Presenter 3 Female (Yes = 1, No = 0)
+Female4: Presenter 4 Female (Yes = 1, No = 0)
+Novelties: Did the presenter(s) use "novelty" items during their pitch? (Yes = 1, No = 0)
+Health / Wellness: Category of product (Yes = 1, No = 0)
+Food and Beverage: Category of product (Yes = 1, No = 0)
+Business Services: Category of product (Yes = 1, No = 0)
+Lifestyle / Home: Category of product (Yes = 1, No = 0)
+Software / Tech: Category of product (Yes = 1, No = 0)
+Children / Education: Category of product (Yes = 1, No = 0)
+Automotive: Category of product (Yes = 1, No = 0)
+Fashion / Beauty: Category of product (Yes = 1, No = 0)
+Media / Entertainment: Category of product (Yes = 1, No = 0)
+Fitness / Sports / Outdoors: Category of product (Yes = 1, No = 0)
+Pet Products: Category of product (Yes = 1, No = 0)
+Travel: Category of product (Yes = 1, No = 0)
+Green/CleanTech: Category of product (Yes = 1, No = 0)
+Uncertain / Other: Category of product (Yes = 1, No = 0)
+MalePresenter: One or more male presenters present (Yes = 1, No = 0)
+FemalePresenter: One or more female presenters present (Yes = 1, No = 0)
+MixedGenderPresenters: Mix of genders among presenters (Yes = 1, No = 0)
+CompanyState: State (or Canada) of entrepreneur's company
+AmountRequested: Funding amount requested by entrepreneur
+EquityRequested: Equity percentage requested by entrepreneur
+ImpliedValuationRequested: Implied valuation from funding amount and equity requested
+BarbaraCorcoran: Investor present for this episode (Yes = 1, No = 0)
+MarkCuban: Investor present for this episode (Yes = 1, No = 0)
+LoriGreiner: Investor present for this episode (Yes = 1, No = 0)
+RobertHerjavec: Investor present for this episode (Yes = 1, No = 0)
+DaymondJohn: Investor present for this episode (Yes = 1, No = 0)
+KevinOLeary: Investor present for this episode (Yes = 1, No = 0)
+KevinHarrington: Investor present for this episode (Yes = 1, No = 0)
+Guest: Guest investor present for this episode (Yes = 1, No = 0)
